@@ -1,0 +1,40 @@
+const CourseName = {
+    'MOT':'Enhancing Motivation Strategies in the Contemporary Classroom',
+    'ICT':'Using Technology in the Classroom',
+    'CRE':'Creativity in the Classroom and Different Ways of Displaying It',
+    'SEN':'Special needs and Inclusion in Education',
+    'BULL':'Preventing Bullying in Schools',
+    'CTH':'CRITICAL THINKING - Developing 21st Century Skills in the Classroom',
+    'INN':'Innovations in Language Teaching Methodology',
+    'ESL':'Strategies for Reducing Early School Leaving',
+    'MIX':'Successful Teaching in a Mixed Ability Classroom',
+    'DRAM':'Drama for Educators',
+    'DS':'Digital Storytelling',
+    'HT':'Happy Teachers make Great Students: The Psychology of Teaching',
+    'CMS':'Classroom Management Solutions for Educators: New Methods, Effective Assessment, Motivational Tools',
+    'STR':'Stress Management and Burnout Prevention ',
+    'GBL':'Game Based Learning',
+    'MH':'Building Better Mental Health and Well-being',
+    'IMP':'Improving English Language Skills',
+    'FIN':'Explore the Finnish Pedagogical Method in the Heart of the Mediterranean : The Best of Both Worlds',
+    'IIM':'Innovative and Interactive Methods for Formative Assessment',
+    'INT':'Intensive English Language Course for Teachers and School Staff (10 days)',
+    'MIND':'MINDFULNESS - Breathing Technique that is changing the 21st Century Classroom',
+    'COD':'The Fun of Coding - How to Teach Coding to Your Students and Develop Computational Thinking',
+    'CTM':'Critical Thinking & Mindfulness - Discover the Present Moment & Explore Complex Issues',
+    'COLL':'Collaboration, Teamwork &amp; Teambuilding: Create Stronger Bonds in Your Classroom',   
+    'SUS': 'Sustainability in Education - Introducing Green and ECO-lifestyles',
+    'EDU':'Educate - Reduce Climate Change Impact and Save the Environment',
+    'TB' :'Environmental awareness - THINK BLUE - Save Seas and Waters for Future',
+    'TFW':'Teaching the Fun Way in the Digital Era',
+    'SS':'Mastering Soft skills and Growing Emotional Intelligence using Mindfulness',  
+    'MAS':'Maximizing Student &amp; s Success through Socio-Emotional Learning:  a Comprehensive Guide for Teachers',
+    'BOT':'Boosting Teachers &amp; Resilience, Positive Thinking & Problem Solving',
+    'DDC':'Developing Digital Content and e-Learning Platform Creation',
+    'CHE':'Cultural heritage education: Experiential learning on the case study of Split, Croatia',
+    'STEM':'Welcome to STEM wonderland - discover the world through chemical experiments and fun games'
+} 
+
+
+
+module.exports = CourseName

@@ -1,0 +1,24 @@
+{
+  "name": "excel_tablice",
+  "version": "1.0.0",
+  "description": "program for generating excel table scheduler",
+  "main": "main.js",
+  
+  "scripts": {
+    "dev": "nodemon main.js",
+    "watch": "nodemon",
+    "test": "test"
+  },
+  "author": "AndreaT",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier-eslint": "^15.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "docx": "^8.1.0",
+    "exceljs": "^4.3.0",
+    "jsonfile": "^6.1.0"
+  }
+}

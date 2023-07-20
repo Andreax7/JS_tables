@@ -1,18 +1,16 @@
 
+import predavaci from './predavacObj.js'
 
-const predavaci = require('./predavacObj.js')
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-
 
 class TecajGrupa {
 
-    constructor(date, time, title, prof, location, info ) {
+    constructor(date, time, title, prof, location ) {
       this.date = this.dateFormat(date)
       this.time = time
       this.title = title
       this.prof = this.recognizeProf(prof)
       this.location = location
-      this.info = info
     }
 
     dateFormat(date){
@@ -42,4 +40,4 @@ class TecajGrupa {
   
 }
 
-  module.exports = TecajGrupa
+ export default TecajGrupa

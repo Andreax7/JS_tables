@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "program for generating excel table scheduler",
   "main": "main.js",
-  
+  "type": "module",
   "scripts": {
     "dev": "nodemon main.js",
     "watch": "nodemon",
@@ -12,13 +12,15 @@
   "author": "AndreaT",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.22",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1",
     "prettier-eslint": "^15.0.1",
     "xlsx": "^0.18.5"
   },
   "dependencies": {
-    "docx": "^8.1.0",
+    "docx": "^8.2.1",
     "exceljs": "^4.3.0",
+    "he": "^1.2.0",
     "jsonfile": "^6.1.0"
   }
 }

@@ -13,7 +13,7 @@ const CourseName = {
     'HT':'Happy Teachers make Great Students: The Psychology of Teaching',
     'CMS':'Classroom Management Solutions for Educators: New Methods, Effective Assessment, Motivational Tools',
     'STR':'Stress Management and Burnout Prevention ',
-    'GBL':'Game Based Learning',
+    'GB':'Game Based Learning',
     'MH':'Building Better Mental Health and Well-being',
     'IMP':'Improving English Language Skills',
     'FIN':'Explore the Finnish Pedagogical Method in the Heart of the Mediterranean : The Best of Both Worlds',
@@ -37,4 +37,4 @@ const CourseName = {
 
 
 
-module.exports = CourseName
+export default CourseName

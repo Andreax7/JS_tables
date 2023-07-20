@@ -3,12 +3,15 @@ const predavaci = {
     'IČ':'Ivana Čoko',
     'ND':'Nikola Drviš',
     'MG':'Mirjana Gaćina',
+    'MGB':'Mirjana Gaćina',
     'AL':'Ana Lepetić',
     'AP':'Ana Paradžik',
     'TB':'Tamara Bošković',
     'TKJ':'Tatjana K. Janković',
     'NZ':'Nora Zaller',
-    'AK':'Adela Kokan'
+    'AK':'Adela Kokan',
+    'IR':'Ivana Restović',
+    'IG':'Ines Grgurinović',
+    'VD':'Vesna Dobronić'
 } 
-
-module.exports = predavaci
+export default predavaci

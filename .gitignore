@@ -1,6 +1,8 @@
 #firstline
-'node_modules/'
-'predavacObj.js/'
-'raspored_grupe/'
-'raspored_nast/'
-'rasporedi_xlsx'
+node_modules/
+predavacObj.js/
+raspored_grupe/
+raspored_nast/
+rasporedi_xlsx/
+
+dist

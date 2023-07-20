@@ -1,6 +1,6 @@
 #firstline
 node_modules/
-predavacObj.js/
+/predavacObj.js
 raspored_grupe/
 raspored_nast/
 rasporedi_xlsx/

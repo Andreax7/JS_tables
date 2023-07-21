@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "program for generating excel table scheduler",
   "main": "main.js",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andreax7/JS_tables"
+  },
   "scripts": {
     "dev": "nodemon main.js",
     "watch": "nodemon",
@@ -14,6 +17,7 @@
   "devDependencies": {
     "lodash": "^4.17.21",
     "nodemon": "^3.0.1",
+    "officegen": "^0.6.5",
     "prettier-eslint": "^15.0.1",
     "xlsx": "^0.18.5"
   },
@@ -21,6 +25,11 @@
     "docx": "^8.2.1",
     "exceljs": "^4.3.0",
     "he": "^1.2.0",
-    "jsonfile": "^6.1.0"
+    "install": "^0.13.0",
+    "jsonfile": "^6.1.0",
+    "npm": "^9.8.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }

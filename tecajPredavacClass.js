@@ -10,4 +10,4 @@
     
   }
 
-export default TecajPredavac
+module.exports = TecajPredavac

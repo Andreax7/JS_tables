@@ -1,5 +1,6 @@
-import fs from 'fs'
-import tecaevi from './tecajeviObj.js'
+const fs = require('fs')
+const tecaevi = require('./tecajeviObj.js')
+
 
 
 async function writeFile(filename, writedata) {
@@ -37,7 +38,7 @@ function removeNonLetters(str){
   return str.replace(/[^a-z]/gi, '');
 }
 
-export default {
+module.exports = {
     writeFile, 
     isGroup, 
     check,

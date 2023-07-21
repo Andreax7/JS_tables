@@ -37,4 +37,4 @@ const CourseName = {
 
 
 
-export default CourseName
+module.exports = CourseName

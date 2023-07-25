@@ -1,0 +1,30 @@
+1. Potrebno je imati node js i npm instaliran 
+	Kako instalirati npm: https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+	- preuzeti sa https://nodejs.org/en/download LTS (Windows Installer (.msi)bit)
+	- pokrenuti instalaciju nakon preuzimanja, prateću upute (Node.js Setup)
+	- ZA CUSTOM SETUP obavezno odabrati npm package manager	
+-PROVJERA da li je instalirano: ući u command prompt i upisati node -v, nakon toga npm -v
+	trebali bi se pojaviti brojevi verzija ako je instalirano
+
+2. U folder u koji će biti dodan kod, napraviti foldere: raspored_grupe, raspored_nast, rasporedi_xlsx
+	unutar foldera rasporedi_grupe program generira rasporede za grupe,
+	unutar foldera rasporedi_nast program generira rasporede za nastavnike,
+	unutar foldera rasporedi_xlsx nalaze se aktualni rasporedi koje je potrebno strukturirati kako bi se mogao konvertirati u json
+		 ukoliko bilo koji od foldera ne postoji, postoji mogućnost greške kod generiranja	
+
+3. Kod preuzeti sa githuba (https://github.com/Andreax7/JS_tables) -najvažniji file je package.json
+
+4. Nakon što su svi file-ovi preuzeti, pozicionirati se sa command promptom unutar foldera gdje su preuzeti fileovi
+ i ispisati naredbu: npm install
+
+NAPOMENE:
+
+Raspored mora biti u json formatu, nazvan data.json i dodan na najvecoj razini unutar foldera (gdje je i package.json)!
+Da bi se dobila data.json datoteka potrebno je 
+			1. excel tablicu strukturirati na nacin da se podaci dodaju jedni ispod drugog,
+				a prvi red mora imati ćelije sa nazivima: naziv, datum_dan, sati, lokacija, predavac, grupe, napomena
+			2. ili preko excel dodatka excel-to-json kliknuti na dodatak pa kopirati json podatke u datoteku data.json/
+				(LINK za preuzeti dodatak:      https://appsource.microsoft.com/en-us/product/office/wa104380263?tab=overview)	
+			   ili preko web stranice (LINK:     https://products.aspose.app/cells/conversion/excel-to-json) konvertirati strukturiranu tablicu, 
+					tj drag n drop pa preuzeti data.json
+2. json podaci moraju se zvati data.json!

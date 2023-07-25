@@ -76,13 +76,13 @@ function getAllGroups(){
   
 }
 
-async function GenerateTablePariticipants(grupeArr){
+async function getParticipantsData(grupeArr){
  
   try{
         const allCourses = getAllCourses()
         const courses = await allCourses.then( elem => { return elem })
-        console.log('tu ', courses.length)
-        grupeArr.forEach(grupa => {
+       // console.log('tu ', courses.length)
+       await grupeArr.forEach(grupa => {
             const groupSchedule = []
             let isMultiple = grupa.includes('=')
             let nameArray = grupa.split('=')
@@ -100,8 +100,8 @@ async function GenerateTablePariticipants(grupeArr){
                     groupSchedule.push(tecajObj)
                 }
             }  
-        console.log('writing', nameArray)
-        writeToFile(nameArray)
+      
+        writeToFile(nameArray,groupSchedule)
            // printSchedule_Groups(groupSchedule, grupa)
             //groupSchedule => sadrzi sve lekcije za pojedinu grupu!!! 
             //console.log('\n \n generate table bf funk ', grupa , groupSchedule.length 
@@ -148,7 +148,7 @@ async function printSchedule_Groups(arrayOfLectures, groupName){  // izvlaci bro
           ukupnoLjudi = nameArray[nameArray.length-1]
         }
         else ukupnoLjudi = matches
-        //await writeToFile(nameArray)
+        
     }catch(err){
       console.log(' error in printSchedule_Groups ===> ', err)
     }
@@ -170,16 +170,75 @@ async function printSchedule_Groups(arrayOfLectures, groupName){  // izvlaci bro
     //fs.writeFileSync('output.docx', buffer);
 }    
 
-function writeToFile(nameArray){
+
+function writeToFile(nameArray, schedules){
   try{
-       const docx = officegen('docx')
+        const docx = officegen('docx')
         const nazivgr = he_pkg.decode(helpers.getGrup(nameArray))  // izvuci naslov i dekodiraj ga 
         let fileName = `./raspored_grupe/${nameArray[0]}.docx`
-        const parag = docx.createP()
-        parag.addText("smth "+`${nazivgr}`)
+        
         const out = fs.createWriteStream(fileName)
-        docx.generate(out)
+        var header = docx.getHeader().createP()
+   
+        header.addText( 'Erasmus+ Courses Croatia Teacher Training Centre ', { font_face: 'Cambria', font_size : 10})      
+        header.addText('   2023', { color: 'blue', bold: true, font_face: 'Cambria', font_size : 10})
+        header.options.align = 'right'  
+        const parag2 = docx.createP()
+        const nasl = docx.createP()
+        const parag = docx.createP()  
+
+        parag2.addText(`${naslovKA}`,{ font_face: "Cambria", align:'center', font_size : 18})
+        nasl.addText('\n'+`${naslovPXbig}`,{ font_face: "Cambria", font_size : 16})
+      
+        parag.addText('\n'+`${nazivgr}`, {bold: true})
+        parag.addText('\n'+`${datumBold}`, {bold: true})
+        parag.options.align ='center'
+        parag2.options.align ='center'
+        nasl.options.align ='center'
+
+        for(let i=0; i < schedules.length-1; i++){
+            console.log(nameArray, schedules[i].date)
+              var table = [ [{
+                                val: `${schedules[i].date} \n`,
+                                opts: {
+                                        cellColWidth: 42,
+                                        align: 'center',
+                                        b: true,
+                                        sz: '11',
+                                        fontFamily: 'Cambria'
+                                      }
+                                        },
+                            {
+                                val: ` ${schedules[i].time} \n ${schedules[i].title}  ${schedules[i].prof} \n ${schedules[i].location} ` ,
+                                  opts: {
+                                    align: 'center',
+                                    cellColWidth: 42,
+                                    b: true,
+                                    sz: '11',
+                                          }
+                            }], 
+                          ]
+
+        var tableStyle = {
+            tableColWidth: 4261,
+            tableSize: "auto",
+            tableAlign: "center",
+            tableFontFamily: "Cambria",
+            borders: true   
+          }
        
+          
+      
+    
+        docx.createTable(table, tableStyle)                  
+
+        }
+        
+                          //)  console.log(tecaj)
+                  
+
+          
+        docx.generate(out)
         
   }catch(err){
       console.log('error in WriteFile ===> ', err)
@@ -195,7 +254,7 @@ function GenerateTableTeachers(){
 
 
 const allGroups = getAllGroups().then(
-  res => GenerateTablePariticipants(res)
+  res => getParticipantsData(res)
 )
 
 

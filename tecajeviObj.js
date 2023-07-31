@@ -12,9 +12,10 @@ const CourseName = {
     'DS':'Digital Storytelling',
     'HT':'Happy Teachers make Great Students: The Psychology of Teaching',
     'CMS':'Classroom Management Solutions for Educators: New Methods, Effective Assessment, Motivational Tools',
-    'STR':'Stress Management and Burnout Prevention ',
+    'STR':'Stress Management and Burnout Prevention',
     'GB':'Game Based Learning',
     'MH':'Building Better Mental Health and Well-being',
+    'BMH':'Building Better Mental Health and Well-being',
     'IMP':'Improving English Language Skills',
     'FIN':'Explore the Finnish Pedagogical Method in the Heart of the Mediterranean : The Best of Both Worlds',
     'IIM':'Innovative and Interactive Methods for Formative Assessment',
@@ -32,6 +33,7 @@ const CourseName = {
     'BOT':'Boosting Teachers &amp; Resilience, Positive Thinking & Problem Solving',
     'DDC':'Developing Digital Content and e-Learning Platform Creation',
     'CHE':'Cultural heritage education: Experiential learning on the case study of Split, Croatia',
+    'OUT':'Outdoor Course',
     'STEM':'Welcome to STEM wonderland - discover the world through chemical experiments and fun games'
 } 
 

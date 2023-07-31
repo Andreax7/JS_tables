@@ -1,5 +1,5 @@
 
-let predavaci =require('./predavacObj.js')
+let predavaci = require('./predavacObj.js')
 
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
@@ -27,15 +27,29 @@ class TecajGrupa {
     
     recognizeProf(prof){// loop trough predavac - compare key with value of obj
       let pred = ''
-      for (let [key, value] of Object.entries(predavaci)){
-        if(key === prof){
-          pred = value
+      if(prof === undefined){
+        return console.log('Error --> EMPTY TEACHER FIELD')
+      }
+      for(const [key, value] of Object.entries(predavaci)) {
+      //  console.log( key === prof, key, prof,  typeof key, typeof prof, value) za provjeru
+        if(key === prof){       
+          let pred = value
           return pred
         }
-      }
-      return pred
-    }
+        if(prof.length > 2){
+          var profesori = prof.split('+')
+          
+          for(let p=0 ; p<= profesori.length-1; p++){
+            pred = (pred + profesori[p].toString()) 
+            pred = pred + ' '
+          }
+          return pred.toString()
+        }
   
+      }
+     
+      return pred.toString()
+    }
   
 }
 

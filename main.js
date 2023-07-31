@@ -3,7 +3,9 @@
 ******************************************************************************/
 const naslovKA = ' ERASMUS+ KEY ACTION 1 '
 const naslovPXbig = ' TEACHER TRAINING COURSES IN SPLIT, CROATIA '
-const datumBold = 'June 23 th - July 29 st 2023'
+const datumBold = 'August 6th - August 12th 2023'
+const header1 = 'Erasmus+ Courses Croatia Teacher Training Centre '
+const header2 = '     2023'
 /******************************************************************************
 ******************************************************************************
 ******************************************************************************/
@@ -17,20 +19,19 @@ const he_pkg = require('he') // ==> PAKET ZA FORMATIRANJE TEKSTA
 
 // ulazni parametri
 let TecajGrupa = require('./tecajGrupaClass.js')
+let TecajPredavac = require('./tecajPredavacClass.js')
 const jsonData = './data.json'
-let helpers = require('./helpers.js')
+const helpers = require('./helpers.js')
 
 let ukupnoLjudi = ''
 
-/**
-   *  Reads data from JSON file 
-*/
-// Podaci iz file-a -data.json 
 
+// Podaci iz file-a -data.json 
 function getAllCourses(){
   try{  
       return new Promise((resolve, reject) => {
           const courses = [] // ALL Courses -> rasp za nas
+
           fs.readFile(jsonData, 'utf8', ((err, data) => {
             if(err){return reject(err)} 
             let parsedData = JSON.parse(data)
@@ -45,66 +46,39 @@ function getAllCourses(){
   }
 }
 
-function getAllGroups(){ 
-  try{ 
-    let grupeArr = []
-    let grupe = []
-    return new Promise((resolve, reject) => {
-          fs.readFile(jsonData, 'utf8', ((err, data) => {   
-            if(err){return reject(err)} 
-            let parsedData = JSON.parse(data)
-            if(Array.isArray(parsedData)){
-              parsedData.forEach(element => {
-                  let grupeStr = element.grupe
-                  let lections = grupeStr.split("+")
-                    lections.forEach(le => {
-                          let str = helpers.removeNonLetters(le)
-                          const found = helpers.isGroup(grupe, str)
-                          if(!found){
-                            grupe.push(le)
-                          }
-                    })
-                    grupeArr.push(lections)  // grupe po lekciji - koja grupa slusa lekciju -> ubaci u grupeArr   
-              })
-            }  
-            resolve(grupe)
-          }))
-    })
-  }catch(err){
-    console.log(err)
-  }
-  
-}
 
-async function getParticipantsData(grupeArr){
- 
+
+async function getParticipantsData(grupeArr){ 
   try{
         const allCourses = getAllCourses()
         const courses = await allCourses.then( elem => { return elem })
        // console.log('tu ', courses.length)
        await grupeArr.forEach(grupa => {
-            const groupSchedule = []
+            const groupSchedule = []  //=> sadrzi sve lekcije za pojedinu grupu!!! 
             let isMultiple = grupa.includes('=')
             let nameArray = grupa.split('=')
-            let str = helpers.removeNonLetters(grupa) // izvlaci samo slova za usporedbu
+            let str = helpers.removeNonLetters(grupa)// izvlaci samo slova za usporedbu
             let matches = [...grupa].reduce((x, y) => helpers.check(y) ? x + y : x, '')
               if(isMultiple){
                 ukupnoLjudi = nameArray[nameArray.length-1]
               }
               else ukupnoLjudi = matches
-            for(let i=0; i < courses.length; i++){  // prodji kroz lekcije
+            for(let i=0; i <= (courses.length)-1; i++){  // prodji kroz lekcije
                 let cGrup = courses[i].grupe    // izvuci jednu lekciju za provjeru grupa  test: console.log( cGrup.includes(str), cGrup, str ) ----> false CRE6+COLL3=9 GB or true GB7+INN1=8 GB
                 // PROVJERA        
                 if(cGrup.includes(str)){  // spremi lekciju u tecaj pa u niz => na kraju iz niza printaj objekte u celije
-                    var tecajObj = new TecajGrupa(courses[i].datum_dan,courses[i].sati, courses[i].naziv, courses[i].predavac, courses[i].lokacija)
+                    var tecajObj = new TecajGrupa(courses[i].datum_dan, courses[i].sati, courses[i].naziv, courses[i].predavac, courses[i].lokacija)                 
                     groupSchedule.push(tecajObj)
                 }
-            }  
-      
-        writeToFile(nameArray,groupSchedule)
-           // printSchedule_Groups(groupSchedule, grupa)
+                if(courses[i].grupe === undefined || courses[i].naziv === undefined || courses[i].datum_dan === undefined || courses[i].sati === undefined || courses[i].lokacija === undefined){
+                  console.log(' ERROR ----> one of the empty fields in data.json ')
+                }
+            } 
+          
+            writeCoursesToWord(nameArray,groupSchedule)
+            // PROVJERA:
             //groupSchedule => sadrzi sve lekcije za pojedinu grupu!!! 
-            //console.log('\n \n generate table bf funk ', grupa , groupSchedule.length 
+            //console.log('\n \n generate table bf funk ', grupa , groupSchedule.length ) 
         })
 
 //******************************************************************************************  
@@ -132,112 +106,70 @@ async function getParticipantsData(grupeArr){
          //var tecajObj = new TecajGrupa(); 
          //console.log('tuu ') 
     }) */ 
-
   }catch(err){
     console.log(err)
   } 
-}     
+}
 
-let cnt = 0
-async function printSchedule_Groups(arrayOfLectures, groupName){  // izvlaci broj ljudi i inicijale grupe za naslov file-a
-    try{
-        let isMultiple = groupName.includes('=')
-        let nameArray = groupName.split('=')
-        let matches = [...groupName].reduce((x, y) => helpers.check(y) ? x + y : x, '')
-        if(isMultiple){
-          ukupnoLjudi = nameArray[nameArray.length-1]
-        }
-        else ukupnoLjudi = matches
-        
-    }catch(err){
-      console.log(' error in printSchedule_Groups ===> ', err)
-    }
-    
-  //console.log('printSchedule_Groups FCJA => ', groupName, ukupnoLjudi)
-  
-  // Used to export the file into a .docx file
-   
-   
-    //out.on('error', function(err){
-      //console.log(err)
-    //})
-    
-    //
-   
-   // Packer.toBuffer(doc).then((buffer) => {
-    //createWriteStream(`./raspored_grupe/${nameArray[0]}.docx`,buffer)
-    //})
-    //fs.writeFileSync('output.docx', buffer);
-}    
-
-
-function writeToFile(nameArray, schedules){
+function writeCoursesToWord(nameArray, schedules){
   try{
         const docx = officegen('docx')
         const nazivgr = he_pkg.decode(helpers.getGrup(nameArray))  // izvuci naslov i dekodiraj ga 
-        let fileName = `./raspored_grupe/${nameArray[0]}.docx`
+        let fileName = `./raspored_grupe/${nameArray[0]}.docx`   // sprema u folder raspored_grupe
         
         const out = fs.createWriteStream(fileName)
         var header = docx.getHeader().createP()
    
-        header.addText( 'Erasmus+ Courses Croatia Teacher Training Centre ', { font_face: 'Cambria', font_size : 10})      
-        header.addText('   2023', { color: 'blue', bold: true, font_face: 'Cambria', font_size : 10})
-        header.options.align = 'right'  
+        header.addText( header1, { font_face: 'Cambria', font_size : 10})      
+        header.addText(header2, { color: 'blue', bold: true, font_face: 'Cambria', font_size : 10})
+        header.options.align = 'right' 
+        header.addText('')
         const parag2 = docx.createP()
         const nasl = docx.createP()
         const parag = docx.createP()  
 
-        parag2.addText(`${naslovKA}`,{ font_face: "Cambria", align:'center', font_size : 18})
-        nasl.addText('\n'+`${naslovPXbig}`,{ font_face: "Cambria", font_size : 16})
-      
-        parag.addText('\n'+`${nazivgr}`, {bold: true})
-        parag.addText('\n'+`${datumBold}`, {bold: true})
+        parag2.addText(`${naslovKA}`,{ font_face: "Cambria", align:'center', font_size : 14})
+        nasl.addText(`${naslovPXbig}`,{ font_face: "Cambria", font_size : 16})
+        
+        parag.addText('\n'+`${nazivgr}`, {bold: true, font_face: "Cambria", font_size : 12})
+        parag.addText('\n'+`${datumBold}`, {bold: true, font_face: "Cambria", font_size : 12})
         parag.options.align ='center'
         parag2.options.align ='center'
         nasl.options.align ='center'
 
+     
         for(let i=0; i < schedules.length-1; i++){
-            console.log(nameArray, schedules[i].date)
               var table = [ [{
-                                val: `${schedules[i].date} \n`,
+                                val:( `${ schedules[i].date }`).toString(),
                                 opts: {
-                                        cellColWidth: 42,
+                                        cellColWidth: 2000,
+                                        autoFit: true,
                                         align: 'center',
-                                        b: true,
-                                        sz: '11',
+                                        sz: '24',
                                         fontFamily: 'Cambria'
                                       }
                                         },
                             {
-                                val: ` ${schedules[i].time} \n ${schedules[i].title}  ${schedules[i].prof} \n ${schedules[i].location} ` ,
+                                val: (`${schedules[i].time}` +'\r\n'+ `${schedules[i].title}` + '\n' + `${schedules[i].prof}` +'\n Location: '+ `${schedules[i].location}`).toString() ,
                                   opts: {
-                                    align: 'center',
-                                    cellColWidth: 42,
-                                    b: true,
-                                    sz: '11',
+                                     align: 'center',
+                                     cellColWidth: 9000,
+                                     sz: '24',
                                           }
                             }], 
                           ]
 
         var tableStyle = {
-            tableColWidth: 4261,
-            tableSize: "auto",
+            tableColWidth: 65000,
+            tableSize: 450,
             tableAlign: "center",
             tableFontFamily: "Cambria",
-            borders: true   
+            borders: true,
           }
-       
-          
-      
-    
+
         docx.createTable(table, tableStyle)                  
-
         }
-        
-                          //)  console.log(tecaj)
-                  
-
-          
+        //)  console.log(tecaj)
         docx.generate(out)
         
   }catch(err){
@@ -247,15 +179,115 @@ function writeToFile(nameArray, schedules){
 }
 
 
-function GenerateTableTeachers(){
+async function getTeachersData(teachersArr){ 
+  try{
+        const allCourses = getAllCourses()
+        const courses = await allCourses.then( elem => { return elem })
+
+       await teachersArr.forEach(teacher => {           
+            const teachersSchedule = []  //=> sadrzi sve lekcije za pojedinog profesora !!! 
+
+             for(let i=0; i <= (courses.length)-1; i++){  // prodji kroz lekcije
+                let prof = courses[i].predavac       
+                let napomena = courses[i].napomena ? courses[i].napomena : ' '
+                if(prof === teacher){  // spremi lekciju u rasp za profesora pa u niz => na kraju iz niza printaj objekte u celije
+                    var tecajPredavacOb = new TecajPredavac(courses[i].datum_dan, courses[i].grupe ,courses[i].sati, courses[i].naziv, courses[i].predavac, courses[i].lokacija, napomena)                 
+                    teachersSchedule.push(tecajPredavacOb)
+                }
+                 if(courses[i].grupe === undefined || courses[i].naziv === undefined || courses[i].datum_dan === undefined || courses[i].sati === undefined || courses[i].lokacija === undefined){
+                  console.log(' ERROR ----> one of the empty fields in data.json ')
+                }
+            }       
+            writeTeacherSchedule(teacher,teachersSchedule)
+        })
+
+  }catch(err){
+    console.log(err)
+  } 
+}
+
+function writeTeacherSchedule(teacher, schedules){
+  try{
+        const docx = officegen('docx')
+        let fileName = `./raspored_nast/${teacher}_schedule.docx`   // sprema u folder raspored_nast
+        
+        const out = fs.createWriteStream(fileName)
+        var header = docx.getHeader().createP()
    
+        header.addText( header1, { font_face: 'Cambria', font_size : 10})      
+        header.addText(header2, { color: 'blue', bold: true, font_face: 'Cambria', font_size : 10})
+        header.options.align = 'right' 
+        header.addText('')
+        const parag2 = docx.createP()
+        const nasl = docx.createP()
+        const parag = docx.createP()  
+
+        parag2.addText(`${naslovKA}`,{ font_face: "Cambria", align:'center', font_size : 14})
+        nasl.addText(`${naslovPXbig}`,{ font_face: "Cambria", font_size : 16})
+        
+        parag.addText('\n'+`${helpers.getTeacherFullName([teacher])}`, {bold: true, font_face: "Cambria", font_size : 12})
+        parag.addText('\n'+`${datumBold}`, {bold: true, font_face: "Cambria", font_size : 12})
+        parag.options.align ='center'
+        parag2.options.align ='center'
+        nasl.options.align ='center'
+
+     
+        for(let i=0; i < schedules.length-1; i++){
+           // console.log(typeof schedules[i].prof, schedules[i].prof )
+      
+              var table = [ [{
+                              val:( `${ schedules[i].date }`).toString(),
+                                opts: {
+                                        cellColWidth: 2000,
+                                        autoFit: true,
+                                        align: 'center',
+                                        sz: '22',
+                                        fontFamily: 'Cambria'
+                                      }
+                                        },
+                            {
+                                val: (`${schedules[i].time}` +'\r\n'+ `${schedules[i].title}` + '\n\n' + `${schedules[i].info}` + '\n\n' + `${schedules[i].prof}` +'\n'+ `${schedules[i].groups}` +'\n\n Location: '+ `${schedules[i].location}`).toString() ,
+                                  opts: {
+                                     align: 'center',
+                                     cellColWidth: 9500,
+                                     sz: '22',
+                                          }
+                            }], 
+                          ]
+
+        var tableStyle = {
+            tableColWidth: 65000,
+            tableSize: 400,
+            tableAlign: "center",
+            tableFontFamily: "Cambria",
+            borders: true,
+          }
+
+        docx.createTable(table, tableStyle)                  
+        }
+        //)  console.log(tecaj)
+        docx.generate(out)
+        
+  }catch(err){
+      console.log('error in WriteFile ===> ', err)
+  }
+  
 }
 
 
 
-const allGroups = getAllGroups().then(
-  res => getParticipantsData(res)
+
+const allGroups = helpers.getAllGroups().then(
+  res => {
+    console.log(' niz sa svim grupama ',res)
+    getParticipantsData(res)
+  }
 )
 
-
-
+const allTeachers = helpers.getTeachers().then(
+  res=> {
+      console.log('niz sa svim profesorima ',res)
+      getTeachersData(res)
+  }
+ 
+)

@@ -1,310 +1,606 @@
 [
-    {
-        "naziv":"Welcome Event Registration Introduction to the course Croatian traditional delicacies Orientational walk",
-        "datum_dan":"NED 25.6.",
-        "sati":"17:30 - 20:30",
-        "lokacija":"Društvo Arhitekata Splita, Ul. Ante Starčevića 24/C, 21000, Split",
-        "predavac":"DČ",
-        "grupe":"MH9+IMP12+GB7+ICT4+CRE6+COLL3+SEN3+INN1=45",
-        "napomena":"na Welcomeu Ivana, Željana, Filipa"
-    },
-    {
-        "naziv":"Understanding the human behavior ( based on Choice Theory)- lecture",
-        "datum_dan":"PON 26.6.",
-        "sati":"09:00 - 10:30 ",
-        "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-        "predavac":"TB",
-        "grupe":"BULL8=8",
-        "napomena":"  Ivana kroz jutro u Teslinoj "},
-    {
-        "naziv":"Teamwork: Creative Ways to Tackle Challenges in the Classroom ",
-        "datum_dan":"PON 26.6.",
-        "sati":"09:00 - 10:00 ",
-        "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-        "predavac":"DČ",
-        "grupe":"CRE6+COLL3+INN1=10",
-        "napomena":""
-        },
-        {
-            "naziv":"Tackling Challenges in the 21st Century Classroom",
-            "datum_dan":"PON 26.6.",
-            "sati":"09:00 - 10:30 ",
-            "lokacija":"PROSTOR Plančićeva ul. 2, 21000, Split",
-            "predavac":"IČ",
-            "grupe":"IMP12",
-            "napomena":""
-        },
-        {
-            "naziv":"Relationships, Quality world, improving skills- workshop",
-            "datum_dan":"PON 26.6.",
-            "sati":"10:45 - 11:45",
-            "lokacija":"Classroom 2 Erasmus Courses, Training Centre, Teslina 16a Split",
-            "predavac":"TB","grupe":"BULL8=8",
-            "napomena":""
-        },{
-            "naziv":"Focus on Individual Differences to Motivate Students",
-            "datum_dan":"PON 26.6.",
-            "sati":"10:15 - 11:45",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"DČ",
-            "grupe":"CRE6+COLL3+INN1=10",
-            "napomena":""
-        },{
-            "naziv":" Find Someone Who...? Improve your conversational skills in practice ",
-            "datum_dan":"PON 26.6.",
-            "sati":"10:45 - 12:15",
-            "lokacija":"PROSTOR Plančićeva ul. 2, 21000, Split",
-            "predavac":"IČ",
-            "grupe":" IMP12=12",
-            "napomena":""
-        },{
-            "naziv":"Discover Our Collaborative Floor Solution to Foster Motivation",
-            "datum_dan":"PON 26.6.",
-            "sati":"12:00 - 13:30",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"DČ",
-            "grupe":" CRE6+COLL3+BULL8+INN1=18",
-            "napomena":""
-        },{
-            "naziv":"Grammar Review I",
-            "datum_dan":"PON 26.6.",
-            "sati":"12:30 - 14:00",
-            "lokacija":"PROSTOR Plančićeva ul. 2, 21000, Split",
-            "predavac":"IČ",
-            "grupe":" IMP12=12",
-            "napomena":""
-        },{
-            "naziv":"Plickers Formative assessment Applications",
-            "datum_dan":"PON 26.6.",
-            "sati":"15:30 - 16:45",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"MG",
-            "grupe":"GB7+ICT4=11",
-            "napomena":"Karla popodne u Teslinoj "
-        },{
-            "naziv":" Individual Differences in the Classroom",
-            "datum_dan":"PON 26.6.",
-            "sati":"15:30 - 16:30 ",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"DČ",
-            "grupe":"MH10+SEN3=13",
-            "napomena":""
-        },{
-            "naziv":"How to create QR Codes & WordArt Creating interactive images - Thinglink Sweet and simple apps for easy classroom use",
-            "datum_dan":"PON 26.6.",
-            "sati":"17:00 - 18:30 ",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"MG",
-            "grupe":"GB7+ICT4=11",
-            "napomena":""
-        },{
-            "naziv":" Tackling Challenges in the 21st Century School System",
-            "datum_dan":"PON 26.6.",
-            "sati":"16:45 - 18:30  ",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"DČ",
-            "grupe":"MH10+SEN3=13",
-            "napomena":""
-        },{
-            "naziv":"  Listening 101: The Art of Good Conversation",
-            "datum_dan":"PON 26.6.",
-            "sati":"18:45  - 19:45    ",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"DČ",
-            "grupe":"MH10+SEN3=13",
-            "napomena":""
-        },{
-            "naziv":"Active floor: An Innovative Danish solution to motivate stuents through movement",
-            "datum_dan":"PON 26.6.",
-            "sati":"18:45 - 19:45  ",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"IČ",
-            "grupe":"GB7+ICT4=11",
-            "napomena":""
-        },{
-            "naziv":"Experiential learning: walking through the Split heritage and Dalmatian culture",
-            "datum_dan":"PON 26.6.",
-            "sati":"11:00 - 12:30",
-            "lokacija":"Meeting point: 11:00, in front of Gregory of Nin ",
-            "predavac":"NZ",
-            "grupe":"SEN3+GB7+ICT4+MH10=24",
-            "napomena":""
-        },{
-            "naziv":"Experiential learning: walking through the Split heritage and Dalmatian culture",
-            "datum_dan":"PON 26.6.",
-            "sati":"18:00 - 19:30",
-            "lokacija":"Meeting point: 11:00, in front of Gregory of Nin",
-            "predavac":"AK",
-            "grupe":"CRE6+COLL3+BULL8+IMP12+INN1=30",
-            "napomena":""
-        },{
-            "naziv":"Choosing the right app for class",
-            "datum_dan":"UTO  27.6.",
-            "sati":"09:00 - 10:00 ",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AP",
-            "grupe":"ICT4=4",
-            "napomena":"Ivana u Teslinoj cijelo jutro "
-        },{
-            "naziv":"Visit to the Croatian Daycare Center for individuals with special needs ",
-            "datum_dan":"UTO  27.6.",
-            "sati":"09:00 - 11:45",
-            "lokacija":"Meeting point: 09:00, Teslina 16a   ",
-            "predavac":"",
-            "grupe":"SEN3=3",
-            "napomena":"ORGANIZIRATI TRANSFER                     Vjekoslava pratnja "
-        },{
-            "naziv":"Conversational\nCompetencies & Making Small Talk   \nFormal/Informal Writing                                                       Learn How to Write an Email\nFormal/Informal Verbs\nExpressing Opinions\nLearn to Agree/Disagree\nConversational\nTopics",
-            "datum_dan":"UTO  27.6.",
-            "sati":"09:15 - 13:30",
-            "lokacija":" Meeting point: 09:15, in front of Erasmus\nCourses Training Centre\nTeslina 16a\nDestination: Bene Beach",
-            "predavac":"IČ",
-            "grupe":"IMP12=12",
-            "napomena":""
-        },{
-            "naziv":"Project based learning: Educational Video Spark your creativity using digital media",
-            "datum_dan":"UTO  27.6.",
-            "sati":"9:30 - 13:30",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AL",
-            "grupe":"CRE6+GB7+INN1 =14",
-            "napomena":""
-        },{
-            "naziv":" Intro to Mindfulnes : What Pushes Your Buttons?  - Mindfull vs Mindful: The Breathing Anchor\n- Mindfulness in Schools",
-            "datum_dan":"UTO  27.6.",
-            "sati":"9:30 - 14:00",
-            "lokacija":"Meeting point: 09:15, in front of Erasmus\nCourses Training Centre\nTeslina 16a\nDestination: Bene Beach",
-            "predavac":"DČ",
-            "grupe":"MH10+BULL8+ COLL3=21",
-            "napomena":""
-        },{
-            "naziv":"Creating videos with Kizoa and Adobe Express",
-            "datum_dan":"UTO  27.6.",
-            "sati":"10:15-11:45",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AP",
-            "grupe":"ICT4=4",
-            "napomena":""
-        },{
-            "naziv":" ICT for the inclusive classroom",
-            "datum_dan":"UTO  27.6.",
-            "sati":"12:00 - 13:30",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AP",
-            "grupe":" ICT4+SEN3=7",
-            "napomena":""
-        },{
-            "naziv":"Project based learning: Educational Video Spark your creativity using digital media",
-            "datum_dan":"UTO  27.6.",
-            "sati":"12:45 - 13:31",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AL",
-            "grupe":"CRE6+GB7+INN1=14        ",
-            "napomena":""
-        },{
-            "naziv":" The Brain Gym      What makes a Good Teacher Great",
-            "datum_dan":"SRI 28.6.",
-            "sati":"08:15 - 09:45  ",
-            "lokacija":"Društvo Arhitekata Splita, Ul. Ante Starčevića 24/C, 21000, Split",
-            "predavac":"DČ",
-            "grupe":"MH10+BULL8+COLL3+IMP12+CRE6+GB7+ICT4+SEN3+INN1=54",
-            "napomena":" Željana i  Filipa"
-        },{
-            "naziv":"Genially Escaperoom tools and Activities",
-            "datum_dan":"ČET 29.6.",
-            "sati":"09:30 - 11:00",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"MG",
-            "grupe":"GB7+INN1=8",
-            "napomena":"Ivana u Teslinoj "
-        },{
-            "naziv":"Designing a stunning website with Adobe Express",
-            "datum_dan":"ČET 29.6.",
-            "sati":"09:30 - 11:00",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AP",
-            "grupe":"ICT4=4",
-            "napomena":""
-        },{
-            "naziv":"Mindfulness in Nature: Discover Your Senses Teamwork by the river ",
-            "datum_dan":"ČET 29.6.",
-            "sati":"09:30 - 14:00",
-            "lokacija":"Meeting point: 09:00, Teslina16a Destination: Antoničin mlin\nUl. kralja Petra Krešimira IV, 21251,\nŽrnovnica",
-            "predavac":"DČ",
-            "grupe":"MH10+BULL8+COLL3+CRE6+SEN3=30",
-            "napomena":"ORGANIZIRATI TRANSFER"
-        },{
-            "naziv":"Let’s Get Creative Forming & Telling a Story Creative Writing   Let's talk about the Future",
-            "datum_dan":"ČET 29.6.",
-            "sati":"9:00 - 14:00",
-            "lokacija":"Meeting point: 09:00, Teslina16a",
-            "predavac":"IČ",
-            "grupe":"IMP12=12",
-            "napomena":"ORGANIZIRATI TRANSFER"
-        },{
-            "naziv":" Fun activities with QR codes and Immersive App",
-            "datum_dan":"ČET 29.6.",
-            "sati":"11:15 - 12:45",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"MG",
-            "grupe":" GB7+INN1=8",
-            "napomena":""
-        },{
-            "naziv":"Introduction to e-learning and blended learning",
-            "datum_dan":"ČET 29.6.",
-            "sati":"11:15 - 12:45",
-            "lokacija":"Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"AP",
-            "grupe":"ICT4=4",
-            "napomena":""
-        },{
-            "naziv":"Case study: Experiences of a Croatian personal assistant to children with difficulties",
-            "datum_dan":"PET 30.6.",
-            "sati":"08:30 - 09:30",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"TKJ",
-            "grupe":"SEN3=3",
-            "napomena":""
-        },{
-            "naziv":"Yoga al fresco Mindful yoga with the most beautiful view ",
-            "datum_dan":"PET 30.6.",
-            "sati":"08:15 - 11:00",
-            "lokacija":"Meeting point: 08:15, in front of Erasmus Courses Training Centre, Teslina 16a,   Destination: Sustipan",
-            "predavac":"ND",
-            "grupe":"MH10=10",
-            "napomena":""
-        },{
-            "naziv":"Practical examples of learning activities performed outdoors.                                                 Integrate ICT and Digital Tools into outdoor teaching and learning                          Explore the cultural heritage using QR codes and Immersive App &enjoy a day out in the nature",
-            "datum_dan":"PET 30.6.",
-            "sati":"8:30 - 13:30",
-            "lokacija":"Meeting point: 08:15, in front of Erasmus Courses Training Centre, Teslina 16a,   Destination: Sustipan",
-            "predavac":"MG",
-            "grupe":"GB7+ ICT4+INN1 =12",
-            "napomena":""
-        },{
-            "naziv":" Breaking News English: Reading Comprehension",
-            "datum_dan":"PET 30.6.",
-            "sati":"9:00 - 11:15  ",
-            "lokacija":"PROSTOR Plančićeva ul. 2, 21000, Split",
-            "predavac":"IČ",
-            "grupe":"IMP12=12",
-            "napomena":""
-        },{
-            "naziv":" Lets Get Creative: Focus on Collaborative Dramatic Creativity in the Nature",
-            "datum_dan":"PET 30.6.",
-            "sati":"09:30 - 13:30  ",
-            "lokacija":"Meeting point: 09:30, Teslina 16a,   Destination: Bene beach ",
-            "predavac":"DČ",
-            "grupe":"CRE6+COLL3=9",
-            "napomena":""
-        },{
-            "naziv":" Vicious cycle of bullying  Prevent bullying of children with special needs",
-            "datum_dan":"PET 30.6.",
-            "sati":"09:45 - 11:15",
-            "lokacija":"Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
-            "predavac":"TB",
-            "grupe":" BULL8+SEN3=11",
-            "napomena":""
-        }
-]
-    
+     {
+      "naziv": "Welcome event \n Registration \n Introduction to the course \n Croatian traditional delicacies \n Orientational walk \n",
+      "datum_dan": "NED 6.8.",
+      "sati": "17:30 - 20:30",
+      "lokacija": "Društvo Arhitekata Splita, Ul. Ante Starčevića 24\/C, 21000, Split",
+      "predavac": "DČ",
+      "grupe": "SEN6+EDU6+CRE5+SS5+STR7+BMH11+INN2+ICT4+TFW5+EVA1+HT2=54"
+     },
+     {
+      "naziv": "Welcome event",
+      "datum_dan": "NED 6.8.",
+      "sati": "17:30 - 20:30",
+      "lokacija": "Teslina 16A, 21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP5+INT17=22"
+     },
+     {
+      "naziv": "Embrace Individual Differences",
+      "datum_dan": "PON 7.8.",
+      "sati": "09:00 - 10:30",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "BMH11+STR7+SS5+HT2+SEN7=32"
+     },
+     {
+      "naziv": "Find Someone Who...? Improve your\nconversational skills in\npractice",
+      "datum_dan": "PON 7.8.",
+      "sati": "09:00 - 10:30  ",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP5+INT17+EVA1=23"
+     },
+     {
+      "naziv": "Introduction to Sustainability",
+      "datum_dan": "PON 7.8.",
+      "sati": "09:00 - 10:30  ",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IR",
+      "grupe": "EDU7"
+     },
+     {
+      "naziv": "The importance of digital skills  for 21st century teachers ",
+      "datum_dan": "PON 7.8.",
+      "sati": "09:00 - 10:30  ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "AP",
+      "grupe": "INN2+ICT6=8"
+     },
+     {
+      "naziv": "Technologies for 21st teachers \nFormative assessment tools",
+      "datum_dan": "PON 7.8.",
+      "sati": "09:00 - 10:30  ",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "CRE5+TFW7+ASS1=13"
+     },
+     {
+      "naziv": "Tackling Stressors in the 21st Century Classroom",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "BMH11+STR7+HT2+SS5+SEN7=32"
+     },
+     {
+      "naziv": " Grammar review I\n(English level A)",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP+INT17",
+      "napomena": "(grupa) intensive eng levelA (ENGA)"
+     },
+     {
+      "naziv": "Grammar review I \n(English level B)",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP+INT17+OUT1",
+      "napomena": "intensive eng levelB + OUT1"
+     },
+     {
+      "naziv": "Environment and climate change\/ Sustainable development\/ Renewable sources of energy\n Video clips watching\/ brainstorming \/discussion\n\/ Worksheets\n\nEcological Footprint Calculator",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IR",
+      "grupe": "EDU7"
+     },
+     {
+      "naziv": "Plickers\nFormative assessment\nApplications\nHow to create QR codes",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+INN2+CRE5+ASSE1=15"
+     },
+     {
+      "naziv": "Designing a simple website using templates\nPractice how to make higher level presentations and web platforms",
+      "datum_dan": "PON 7.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "AP",
+      "grupe": "ICT6"
+     },
+     {
+      "naziv": "Listening 101: The Art of Focus & Good Conversation                        Developing Communication Skills ",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "BMH11+STR7=18"
+     },
+     {
+      "naziv": "Difficulties in Learning Process",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "AP",
+      "grupe": "SEN7"
+     },
+     {
+      "naziv": "Conversational \n Competencies & Making \n Small Talk",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": "IMP5+INT17+OUT1=23"
+     },
+     {
+      "naziv": "GoGoals - an ecological board game",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IR",
+      "grupe": "EDU7"
+     },
+     {
+      "naziv": "Create an amazing and unique word clouds - WorldArt\nCreating interactive images -Thinglink \nSweet and simple apps for easy classroom use",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+ICT6+ASSE1=14"
+     },
+     {
+      "naziv": "Collaboration and Teamwork: A Creative Danish Solution to Motivate Students Trough Movement",
+      "datum_dan": "PON 7.8.",
+      "sati": " 12:30 - 14:00",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INN2+CRE5+SS5+HT2=14"
+     },
+     {
+      "naziv": "Experiential learning: walking through the Split heritage and Dalmatian culture",
+      "datum_dan": "PON 7.8.",
+      "sati": "17:00",
+      "lokacija": "Meeting point: In front of Gregory of  Nin",
+      "predavac": "?",
+      "grupe": "INT17+EVA1+EDU7=25",
+      "napomena": "?"
+     },
+     {
+      "naziv": "Experiential learning: walking through the Split heritage and Dalmatian culture",
+      "datum_dan": "PON 7.8.",
+      "sati": "17:30",
+      "lokacija": "Meeting point: In front of Gregory of  Nin",
+      "predavac": "?",
+      "grupe": "STR7+HT2+INN2+SEN7+CRE5+IMP5=28",
+      "napomena": "?"
+     },
+     {
+      "naziv": "Experiential learning: walking through the Split heritage and Dalmatian culture",
+      "datum_dan": "PON 7.8.",
+      "sati": "18:00",
+      "lokacija": "Meeting point: In front of Gregory of  Nin",
+      "predavac": "?",
+      "grupe": "ASS1+TFW7+ICT6+BMH11+SS5=30",
+      "napomena": "?"
+     },
+     {
+      "naziv": "Get creative with Canva AI Tools and Features\n(March 2023 Update)\nHow to make Infographics and videos with Canva",
+      "datum_dan": "UTO 8.8.",
+      "sati": "8:30 - 10:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+INN2+CRE5+ASSE1=15"
+     },
+     {
+      "naziv": "Introduction to e-learning \n and blended learning \n Google Classroom as a social \n learning Community",
+      "datum_dan": "UTO 8.8.",
+      "sati": "8:30 - 10:00",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "AP",
+      "grupe": "ICT6",
+      "napomena": "   "
+     },
+     {
+      "naziv": "Day out of the classroom: THINK BLUE\nIntroducing aquatic environments\nLitoral area in protected forest Marjan",
+      "datum_dan": "UTO 8.8.",
+      "sati": " 08:30 - 13:30",
+      "lokacija": " Meeting point: 8:30, in front of Erasmus\nCourses Training Centre\nTeslina 16a\nDestination: Bene Beach",
+      "predavac": "VD",
+      "grupe": "EDU7"
+     },
+     {
+      "naziv": "How to Make Stress Your Friend\nMeasure Your Stress Levels\nFocus on the Positive",
+      "datum_dan": "UTO 8.8.",
+      "sati": "8:45 - 11:45",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "STR7+SS5+SEN7+BMH11+HT2=32"
+     },
+     {
+      "naziv": "Let’s Get Creative\nForming & Telling a Story\nCreative Writing                       \n Let's talk about the Future ",
+      "datum_dan": "UTO 8.8.",
+      "sati": "09:00 - 14:00",
+      "lokacija": "Meeting point: 09:00, \nErasmus Courses Training Centre,\nTeslina 16a\nDestination: ANTOIČIN MLIN",
+      "predavac": "IG+IČ",
+      "grupe": "IMP5+INT17+OUT1=23"
+     },
+     {
+      "naziv": "Multimedia in the classroom                    \nAdobe Express, Kizoa            ",
+      "datum_dan": "UTO 8.8.",
+      "sati": "10:15 - 11:45",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "AP",
+      "grupe": "ICT6"
+     },
+     {
+      "naziv": "Fun activities with QR codes   ",
+      "datum_dan": "UTO 8.8.",
+      "sati": "10:15 - 11:45",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+CRE5+INN2+ASSE1=15"
+     },
+     {
+      "naziv": "Put your stress under control using Mindfulness in Yoga practice\nDeep relaxation and breathing excercises",
+      "datum_dan": "UTO 8.8.",
+      "sati": "12:00 - 13:30   ",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "AV",
+      "grupe": "STR7"
+     },
+     {
+      "naziv": "Diversity in the Classroom \nTeaching techniques  ",
+      "datum_dan": "UTO 8.8.",
+      "sati": "12:00 - 13:30",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "AP",
+      "grupe": "SEN7+BMH11=18"
+     },
+     {
+      "naziv": "Creative Collaborative Storytelling",
+      "datum_dan": "UTO 8.8.",
+      "sati": "12:00 - 13:30",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "DČ",
+      "grupe": "CRE5+INN2+HT2+SS5=14"
+     },
+     {
+      "naziv": "Live worksheets",
+      "datum_dan": "UTO 8.8.",
+      "sati": " 12:00 - 13:30 ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+ICT6+ASSE1=14"
+     },
+     {
+      "naziv": "What makes a good teacher great",
+      "datum_dan": "SRI 9.8.",
+      "sati": "08:00-09:30",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "BMH11+HT2+TFW7+CRE5+INN2+EDU7=34"
+     },
+     {
+      "naziv": "Think out of the box - compare European Educational Systems and Brainstorm an ideal one ",
+      "datum_dan": "SRI 9.8.",
+      "sati": "08:00-09:30",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "STR7+SS5+SEN7+ICT6+EVA1+ASSE1=27"
+     },
+     {
+      "naziv": "Fun with English",
+      "datum_dan": "SRI 9.8.",
+      "sati": "08:00-09:30",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": " IMP5+INT17=22"
+     },
+     {
+      "naziv": "Practical examples of learning activities performed outdoors.\nIntegrate ICT and Digital Tools into outdoor teaching and learning\nExplore the cultural heritage using QR codes and Immersive App & Enjoy a day out in the nature",
+      "datum_dan": "ČET 10.8.",
+      "sati": "8:30 - 13:30",
+      "lokacija": "Meeting point: 08:30, Teslina16a -in front of Erasmus\nCourses Training Centre,\nDestination: Bene Beach + Marjan Park Forest",
+      "predavac": "MG",
+      "grupe": "TFW7+ICT6+ASSE1=14"
+     },
+     {
+      "naziv": "Day out of the classroom: THINK BLUE \nSustainability in freshwater ecosystems\nField trip and exploration of river Jadro    ",
+      "datum_dan": "ČET 10.8.",
+      "sati": "09:00 - 13:30 ",
+      "lokacija": "Meeting point: 09:00, Teslina16a -in front of Erasmus\nCourses Training Centre, \nDestination: river Jadro",
+      "predavac": "VD",
+      "grupe": "EDU7+OUT1=8",
+      "napomena": "TRANSFER ORGANIZIRATI"
+     },
+     {
+      "naziv": "The Breathing Anchor\nMind full vs Mindfull \nReaction vs Response\n3 Minute Mindfullness",
+      "datum_dan": "ČET 10.8.",
+      "sati": "09:00 - 14:00",
+      "lokacija": "Meeting point: 09:00, Teslina16a -in front of Erasmus\nCourses Training Centre, \nDestination: Antoičin Mlin",
+      "predavac": "DČ",
+      "grupe": "BMH11+SS5+SEN7+STR7+HT2=32",
+      "napomena": "TRANSFER ORGANIZIRATI"
+     },
+     {
+      "naziv": "Formal\/Informal Writing \n Learn How to Write an Email\nFormal\/Informal Verbs\nExpressing Opinions \nLearn to Agree\/Disagree\nConversational Topics\nThe Devil's Bridge -storytelling",
+      "datum_dan": "ČET 10.8.",
+      "sati": "09:00 - 14:00 ",
+      "lokacija": "Meeting point: 09:30, in front of Erasmus Courses Training Centre, Teslina 16a Destination: Jadro river ",
+      "predavac": "IČ+IG",
+      "grupe": "  IMP5+INT17=22",
+      "napomena": "TRANSFER ORGANIZIRATI"
+     },
+     {
+      "naziv": "Project based learning: Educational Video\nSpark your creativity using digital media\nDeveloping team building strategies and collaboration",
+      "datum_dan": "ČET 10.8.",
+      "sati": "16:00 - 20:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INN2+CRE5=7",
+      "napomena": "backup za Mirjanu"
+     },
+     {
+      "naziv": "Workshop: Lesson preparation for the inclusive classroom",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:00 - 10:30 ",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "AP",
+      "grupe": "SEN7"
+     },
+     {
+      "naziv": "Grammar Review II\n(English Level A)",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:00 - 10:30 ",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP+INT17",
+      "napomena": "(grupa) eng levelA (ENGA)"
+     },
+     {
+      "naziv": "Breaking News English:\nReading Comprehension\n(English Level B)",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:00 - 10:30 ",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": "IMP+INT17",
+      "napomena": "eng levelB + OUT1"
+     },
+     {
+      "naziv": "Enhance\nmotivation in the\nprimary\nclassroom using\ngames\nWordwall\nLiveWorkSheets",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:00 - 10:30 ",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+ICT6+ASSE1+INN2+CRE1=17"
+     },
+     {
+      "naziv": "Practical Friday\nGreenhouse effect\nVideo clips watching \/ Experiments and worksheets",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:00 - 11:15",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IR",
+      "grupe": "EDU7"
+     },
+     {
+      "naziv": "Mindfulness in Nature Reinforcing Mental Health in The School System\nMindful Games\nEmotional Intelligence",
+      "datum_dan": "PET 11.8.",
+      "sati": "09:30 - 14:00",
+      "lokacija": "Meeting point: 09:30,\nin front of  Erasmus Courses\nTraining Centre,\n Teslina 16a, Split\nDestination: Bene beach",
+      "predavac": "DČ",
+      "grupe": "STR6+BMH11+HT2+SS5+OUT1=25"
+     },
+     {
+      "naziv": "Reading Comprehension \nI\n(English level A)",
+      "datum_dan": "PET 11.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP+INT17"
+     },
+     {
+      "naziv": "Grammar Review 2 \nGrammatical Concepts\nReview of Tenses \n(English level B)",
+      "datum_dan": "PET 11.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": "IMP+INT17"
+     },
+     {
+      "naziv": "ICT for the inclusive classroom",
+      "datum_dan": "PET 11.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom no.22\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "AP",
+      "grupe": "SEN6"
+     },
+     {
+      "naziv": "Genially\nEscaperoom tools and Activities",
+      "datum_dan": "PET 11.8.",
+      "sati": "10:45 - 12:15",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW7+ICT6+ASSE1+INN2+CRE1=17"
+     },
+     {
+      "naziv": "Practical Friday:\nAcid rains\nVideo clips watching \/ Experiments and worksheets",
+      "datum_dan": "PET 11.8.",
+      "sati": "11:30 - 14:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IR",
+      "grupe": "SUS3+EDU4=7"
+     },
+     {
+      "naziv": " Role play games to improve communication skills \n( Level A & Level B)",
+      "datum_dan": "PET 11.8.",
+      "sati": "12:30 - 14:00",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP+INT17"
+     },
+     {
+      "naziv": "Educational Purpose and Benefits of Comic Strip in Digital Storytelling",
+      "datum_dan": "PET 11.8.",
+      "sati": "12:30 - 14:00    ",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "AP",
+      "grupe": "TFW7+ICT6+ASSE1+INN2+CRE1=17"
+     },
+     {
+      "naziv": "Environmental protection\nBiodiversity\nEco-anxiety\nWorkshop",
+      "datum_dan": "SUB 12.8.",
+      "sati": "09:00 - 10:30  ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IR",
+      "grupe": "SUS3+EDU3=6"
+     },
+     {
+      "naziv": "Let’s Revisit What We’ve\nLearned: Scavenger Hunt                  Course Revision",
+      "datum_dan": "SUB 12.8.",
+      "sati": "09:00 - 11:30 ",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "STR4+SEN6+SS5+HT2+BMH9=26"
+     },
+     {
+      "naziv": "Goosechase: Team Building Treasure Hunt Activity                                               Develop your Collaboration Skills                                                Fun Revision Technique",
+      "datum_dan": "SUB 12.8.",
+      "sati": "09:00 - 11:30 ",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "IMP5+INT17+OUT1=22"
+     },
+     {
+      "naziv": "Creative Showcase: make your own personal project\nCourse revision",
+      "datum_dan": "SUB 12.8.",
+      "sati": "10:00 - 11:30",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW5+ICT4+CRE1+INN2+ASSE1=13"
+     },
+     {
+      "naziv": "How to turn your school eco-friendlier and more sustainable?   Workshop&Brainstorming                                 Course Revision                      Evaluation of the course ",
+      "datum_dan": "SUB 12.8.",
+      "sati": "11:45 - 12:15       ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IR",
+      "grupe": "SUS3+EDU3=6"
+     },
+     {
+      "naziv": "Evaluation of the course",
+      "datum_dan": "SUB 12.8.",
+      "sati": "11:45 - 12:15   ",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "STR4+SEN6+SS5+HT2+BMH9+OUT1=27"
+     },
+     {
+      "naziv": "Cross - curricular English",
+      "datum_dan": "SUB 12.8.",
+      "sati": "11:45 - 12:15   ",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Evaluation of the course",
+      "datum_dan": "SUB 12.8.",
+      "sati": "11:45 - 12:15   ",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": "IMP5"
+     },
+     {
+      "naziv": "Evaluation of the course ",
+      "datum_dan": "SUB 12.8.",
+      "sati": "11:45 - 12:15   ",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW5+ICT5+CRE1+INN3+ASSE1=15"
+     },
+     {
+      "naziv": "Certificates",
+      "datum_dan": "SUB 12.8.",
+      "sati": "12:30 - 13:00",
+      "lokacija": "Classroom no.25\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "DČ",
+      "grupe": "STR4+SEN6+SS5+HT2+BMH9+OUT1=27"
+     },
+     {
+      "naziv": "Idioms, phrasal verbs and collocations",
+      "datum_dan": "SUB 12.8.",
+      "sati": "12:30 - 13:00",
+      "lokacija": "Classroom no.24\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Certificates",
+      "datum_dan": "SUB 12.8.",
+      "sati": "12:30 - 13:00",
+      "lokacija": "Classroom no.23\nSecondary Technical\nTraffic School Split\nUl. Nikole Tesle 4,\n21000, Split",
+      "predavac": "IG",
+      "grupe": "IMP5"
+     },
+     {
+      "naziv": "Certificates",
+      "datum_dan": "SUB 12.8.",
+      "sati": "12:30 - 13:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IR",
+      "grupe": "SUS3+EDU3=6"
+     },
+     {
+      "naziv": "Certificates",
+      "datum_dan": "SUB 12.8.",
+      "sati": "12:30 - 13:00",
+      "lokacija": "Classroom 2 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "MG",
+      "grupe": "TFW5+ICT4+CRE1+INN2+ASSE1=13"
+     },
+     {
+      "naziv": "English Can Be Fun\nSinging in English\nLyric Writing\nRelax & Converse",
+      "datum_dan": "NED 13.8.",
+      "sati": "10:00 - 11:45   ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Word Play\nCompleting Sentences\nMissing Words",
+      "datum_dan": "NED 13.8.",
+      "sati": "12:00 - 14:00",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Practice Listening & Conversational Skills through Storytelling\nForming a Story Using Different Genres\nDestination: Amfiteatar",
+      "datum_dan": "PON 14.8.",
+      "sati": "09:00 - 12:30",
+      "lokacija": "Meeting point: 09: 00, Teslina16a\n in front of Erasmus\nCourses Training Centre,\nDestination: Amfiteatar",
+      "predavac": "DČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Reading Comprehension \nEnglish in the News\nQ & A",
+      "datum_dan": "UTO 15.8.",
+      "sati": "09:00 - 10:30     ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Final tips & tricks\nCourse evaluation",
+      "datum_dan": "UTO 15.8.",
+      "sati": "10:45 - 12:15    ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     },
+     {
+      "naziv": "Certificates",
+      "datum_dan": "UTO 15.8.",
+      "sati": "12:30 - 13:00 ",
+      "lokacija": "Classroom 1 Erasmus Courses\nTraining Centre,\nTeslina 16a Split",
+      "predavac": "IČ",
+      "grupe": "INT17"
+     }
+    ]

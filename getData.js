@@ -112,6 +112,22 @@ async function getExcel_data(filepath, sheetName) {
   }
 }
 
+let cnt = 0
+async function printSchedule_Groups(arrayOfLectures, groupName){  // izvlaci broj ljudi i inicijale grupe za naslov file-a
+    try{
+        let isMultiple = groupName.includes('=')
+        let nameArray = groupName.split('=')
+        let matches = [...groupName].reduce((x, y) => helpers.check(y) ? x + y : x, '')
+        if(isMultiple){
+          ukupnoLjudi = nameArray[nameArray.length-1]
+        }
+        else ukupnoLjudi = matches
+        
+    }catch(err){
+      console.log(' error in printSchedule_Groups ===> ', err)
+   }
+ 
+}    
 
 
  

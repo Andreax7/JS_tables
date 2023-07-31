@@ -32,6 +32,7 @@ const CourseName = {
     'MAS':'Maximizing Student &amp; s Success through Socio-Emotional Learning:  a Comprehensive Guide for Teachers',
     'BOT':'Boosting Teachers &amp; Resilience, Positive Thinking & Problem Solving',
     'DDC':'Developing Digital Content and e-Learning Platform Creation',
+    'DC':'Developing Digital Content and e-Learning Platform Creation',
     'CHE':'Cultural heritage education: Experiential learning on the case study of Split, Croatia',
     'OUT':'Outdoor Course',
     'STEM':'Welcome to STEM wonderland - discover the world through chemical experiments and fun games'

@@ -1,18 +1,20 @@
 1. Potrebno je imati node js i npm instaliran 
 	Kako instalirati npm: https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
-	- preuzeti sa https://nodejs.org/en/download LTS (Windows Installer (.msi)bit)
+	- preuzeti sa https://nodejs.org/en/download LTS (Windows Installer (.msi)) 
 	- pokrenuti instalaciju nakon preuzimanja, prateću upute (Node.js Setup)
-	- ZA CUSTOM SETUP obavezno odabrati npm package manager	
+	
 -PROVJERA da li je instalirano: ući u command prompt i upisati node -v, nakon toga npm -v
 	trebali bi se pojaviti brojevi verzija ako je instalirano
 
 2. U folder u koji će biti dodan kod, napraviti foldere: raspored_grupe, raspored_nast, rasporedi_xlsx
 	unutar foldera rasporedi_grupe program generira rasporede za grupe,
 	unutar foldera rasporedi_nast program generira rasporede za nastavnike,
-	unutar foldera rasporedi_xlsx nalaze se aktualni rasporedi koje je potrebno strukturirati kako bi se mogao konvertirati u json
+	unutar foldera rasporedi_xlsx nalaze se aktualni formatirani rasporedi kako bi se mogao konvertirati u json
 		 ukoliko bilo koji od foldera ne postoji, postoji mogućnost greške kod generiranja	
 
-3. Kod preuzeti sa githuba (https://github.com/Andreax7/JS_tables) -najvažniji file je package.json
+3. Kod preuzeti sa githuba - DOWNLOAD ZIP (https://github.com/Andreax7/JS_tables) -najvažniji file je package.json
+	-dodati predavacObj.js file - gdje se nalaze kratice i puno ime i prezime predavača
+				    - zbog zaštite osobnih podataka predavača ova datoteka nije prikazana
 
 4. Nakon što su svi file-ovi preuzeti, pozicionirati se sa command promptom unutar foldera gdje su preuzeti fileovi
  i ispisati naredbu: npm install
@@ -27,4 +29,6 @@ Da bi se dobila data.json datoteka potrebno je
 				(LINK za preuzeti dodatak:      https://appsource.microsoft.com/en-us/product/office/wa104380263?tab=overview)	
 			   ili preko web stranice (LINK:     https://products.aspose.app/cells/conversion/excel-to-json) konvertirati strukturiranu tablicu, 
 					tj drag n drop pa preuzeti data.json
-2. json podaci moraju se zvati data.json!
+--> json podaci moraju se zvati data.json!
+--> MJENJANJE DATUMA NASLOVA:
+	desni klik na main.js -> Edit with Notepad++ Unutar otvorenog prozora na liniji 7 i 8 se nalaze podaci za mijenjanje
